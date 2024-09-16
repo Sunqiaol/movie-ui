@@ -1,16 +1,16 @@
-import React from "react";
+// Example definition for Movieui component
+import './movieUI.css'
 
-export default function movieUI(title,year){
-    return(
-        <li>
+export default function MovieUI({ title, year }) {
+    return (
+        <div className="Moviecard">
             <div>
                 {title}
             </div>
-
             <div>
                 {year}
             </div>
+        </div>
 
-        </li>
-    )
-}
+    );
+};
